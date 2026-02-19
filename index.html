@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thrilling Thursday</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px 10px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      font-weight: 400;
+      color: #cbd5f5;
+      margin-top: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      padding: 40px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 40px 20px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: white;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .icon {
+      font-size: 2rem;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.05);
+      background: linear-gradient(135deg, #22c55e, #4ade80);
+      color: #022c22;
+      box-shadow: 0 12px 25px rgba(0,0,0,0.5);
+    }
+
+    .full {
+      grid-column: span 2;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>⚡ Thrilling Thursday</h1>
+    <h2>Admin Links</h2>
+  </header>
+
+  <div class="grid">
+    <a href="https://cloud.seatable.io/dtable/forms/c7a28d78-db5b-4c89-a72c-7a31832ddf64/" class="card" target="_blank">
+      <div class="icon">📊</div>
+      Regular SMW Attendance
+    </a>
+
+    <a href="https://forms.gle/rAbvEWwxYRyhj5jF7" class="card">
+      <div class="icon">👥</div>
+      Newcomers
+    </a>
+
+    <a href="https://cloud.seatable.io/dtable/forms/6b8b4a9d-f8e9-4382-9b2c-4d7bc76608b1/" class="card">
+      <div class="icon">📝</div>
+      SMW Registration
+    </a>
+
+    <a href="https://cloud.seatable.io/dtable/forms/1a06abf2-5f11-4365-b501-1e95232cde67/" class="card">
+      <div class="icon">📩</div>
+      Invite to Class
+    </a>
+
+    <a href="https://docs.google.com/spreadsheets/d/1P44fgITV7wkbCKMgw6bf_u_rsHdaFyuBNnZME-W4DeU/edit?usp=sharing" class="card full">
+      <div class="icon">📞</div>
+      Calls
+    </a>
+  </div>
+
+  <footer>
+    In the service of H.D.G Srila Prabhupada 🚀
+  </footer>
+
+</body>
+</html>
